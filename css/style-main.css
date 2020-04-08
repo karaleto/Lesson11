@@ -1,0 +1,89 @@
+/*---------
+Image
+----------*/
+img {
+    width: 100%;
+}
+/*----------
+Font
+-----------*/
+h1{
+    text-align: center;
+    color: rgb(37, 53, 68);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2{ 
+    text-align: center;
+    color: rgb(37, 53, 68);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Raleway', sans-serif; 
+}
+
+footer p {
+    text-align: center;
+    color: rgb(37, 53, 68);
+}
+
+/*-------------
+Header
+--------------*/
+
+/*-------------
+Navigation
+---------------*/
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(37, 53, 68);
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover {
+    background-color: rgb(160, 176, 190);
+    background-color: #3A556D;
+    color: white;
+}
+
+/*----------------
+General
+-------------------*/
+.site {
+    margin: 1em;
+}
+
+.project-one,
+.project-two,
+.project-three,
+.project-four,
+.project-five,
+.project-six,
+.project-seven,
+.project-eight {
+    padding: 1em;
+    background-color: #3A556D;
+    background-color: rgb(37, 53, 68);
+}
+
+@media screen and (min-width: 801px) {
+    .site {
+        margin: 2em;
+    }
+}
+
